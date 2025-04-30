@@ -9,7 +9,7 @@ import io
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = 'selfish@2006'
+app.secret_key = 'yourpassword'
 
 # MySQL Config
 app.config['MYSQL_HOST'] = 'localhost'
